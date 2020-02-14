@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Pick a Number, Any Number!</title>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		
+		
+		<canvas id="my-canvas" style="height: 100%; width: 100%; position: absolute; z-index: -1;"></canvas>
+		
+		
+		<section class="p-5">
+		<h1>Number Guessing Game</h1>
+		
+		<p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+		
+		<p id="previousGuesses"></p>
+			
+		<p id="invalidGuess"></p>
+			
+		<div id="enterGuessDiv"><span>Enter a guess: </span>
+		<input type="text" id="guessInput"><button type="submit" id="submitButton">Submit guess</button></div>
+	
+		<p id="result"></p>
+		
+		<p id="whyWrong"></p>
+		
+		<p id="theAnswer"></p>
+			
+		<button id="resetButton">Start new game</button>
+		
+		
+
+		<p class="fixed-bottom text-center" id="signature">created by Sophie Tsai.</p>
+			
+		</section>
+	</body>
+
+	<script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.16/dist/index.min.js"></script>
+	<script src="number-game.js"></script>
+	
+
+</html>
