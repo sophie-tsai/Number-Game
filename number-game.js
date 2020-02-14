@@ -103,6 +103,7 @@ function onSubmitGuess(){
 		document.querySelector("#result").innerText = "CONGRATS!";
 		document.querySelector("#result").style.color = "green";
 		showConfetti();
+		disableButton();
 	} else {
 		document.querySelector("#result").style.color = "red";
 		
