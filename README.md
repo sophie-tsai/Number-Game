@@ -9,3 +9,4 @@ See it live [here](https://sophie-tsai.github.io/Number-Game/).
 - [Calculator](https://sophie-tsai.github.io/Calculator/)
 - [Timer](https://sophie-tsai.github.io/Timer/)
 - [To-Do List](https://sophie-tsai.github.io/To-Do-List/)
+- [Higher or Lower?](https://sophie-tsai.github.io/Higher-Lower/)
